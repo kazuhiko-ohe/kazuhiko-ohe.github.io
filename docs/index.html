@@ -13,12 +13,12 @@
 	{font-family:游明朝;
 	panose-1:2 2 4 0 0 0 0 0 0 0;}
 @font-face
-	{font-family:"\@游明朝";}
-@font-face
 	{font-family:"ＭＳ Ｐゴシック";
 	panose-1:2 11 6 0 7 2 5 8 2 4;}
 @font-face
 	{font-family:"\@ＭＳ Ｐゴシック";}
+@font-face
+	{font-family:"\@游明朝";}
  /* Style Definitions */
  p.MsoNormal, li.MsoNormal, div.MsoNormal
 	{margin:0mm;
@@ -26,6 +26,9 @@
 	text-justify:inter-ideograph;
 	font-size:10.5pt;
 	font-family:"游明朝",serif;}
+a:link, span.MsoHyperlink
+	{color:#467886;
+	text-decoration:underline;}
 .MsoChpDefault
 	{font-family:"游明朝",serif;}
  /* Page Definitions */
@@ -40,17 +43,24 @@ div.WordSection1
 
 </head>
 
-<body lang=JA style='word-wrap:break-word;text-justify-trim:punctuation'>
+<body lang=JA link="#467886" vlink="#96607D" style='word-wrap:break-word;
+text-justify-trim:punctuation'>
 
 <div class=WordSection1 style='layout-grid:18.0pt'>
 
-<p class=MsoNormal align=center style='text-align:center'><span lang=EN-US
-style='font-size:14.0pt;font-family:"ＭＳ Ｐゴシック",sans-serif'>ICD11</span><span
-style='font-size:14.0pt;font-family:"ＭＳ Ｐゴシック",sans-serif'>対応標準病名マスターの準備版（<span
-lang=EN-US>2026-09-16</span>版）</span></p>
-
-<p class=MsoNormal align=center style='text-align:center'><span
-style='font-size:14.0pt;font-family:"ＭＳ Ｐゴシック",sans-serif'>に関するご意見募集について</span></p>
+<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
+ style='background:#D9F2D0;border-collapse:collapse;border:none'>
+ <tr>
+  <td valign=top style='border:solid windowtext 1.0pt;padding:0mm 5.4pt 0mm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=EN-US
+  style='font-size:18.0pt;font-family:"ＭＳ Ｐゴシック",sans-serif;color:black'>ICD11</span><span
+  style='font-size:18.0pt;font-family:"ＭＳ Ｐゴシック",sans-serif;color:black'>対応標準病名マスターの準備版（<span
+  lang=EN-US>2026-09-16</span>版）</span></p>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-size:18.0pt;font-family:"ＭＳ Ｐゴシック",sans-serif;color:black'>に関するご意見募集について</span></p>
+  </td>
+ </tr>
+</table>
 
 <p class=MsoNormal>＜作成準備中<span lang=EN-US>&gt;</span></p>
 
@@ -60,8 +70,7 @@ style='font-size:14.0pt;font-family:"ＭＳ Ｐゴシック",sans-serif'>対応�
 lang=EN-US>2026-09-16</span>版）　<span lang=EN-US>Excel</span>ファイル形式</span></p>
 
 <p class=MsoNormal>この準備版は、（一財）医療情報システム開発センターで公開されている「<span lang=EN-US>ICD10</span>対応標準病名マスター」<span
-lang=EN-US>Ver.5.18</span>（<span lang=EN-US>2026</span>年<span lang=EN-US>6</span>月改訂版）<span
-lang=EN-US>(https://www2.medis.or.jp/stdcd/byomei/index.html)</span>の各レコードの病名に<span
+lang=EN-US>Ver.5.18</span>（<span lang=EN-US>2026</span>年<span lang=EN-US>6</span>月改訂版）の各レコードの病名に<span
 lang=EN-US>ICD11</span>（<span lang=EN-US>2023</span>年<span lang=EN-US>1</span>月版）を試験的に付与したものです。</p>
 
 <p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
@@ -76,13 +85,13 @@ ICD11</span>対応標準病名マスター準備版　仕様案</p>
 
 <p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
 
-<p class=MsoNormal>このデータの作成は、厚生労働行政推進調査事業費補助金　地域医療基盤開発推進研究事業　<u><span
-lang=EN-US>ICD11</span>対応標準病名マスターの構造と作成に関する研究 （<span lang=EN-US>25IA2013 </span>）</u>（令和<span
-lang=EN-US>7-8</span>年度）により実施されており、その作業の途中報告として公表し、仕様やコードについてご意見を募集するするものです。</p>
+<p class=MsoNormal>このデータの作成は、厚生労働行政推進調査事業費補助金　地域医療基盤開発推進研究事業　<span lang=EN-US>ICD11</span>対応標準病名マスターの構造と作成に関する研究
+（<span lang=EN-US>25IA2013 </span>）（令和<span lang=EN-US>7-8</span>年度）により実施されており、その作業の途中報告として公表し、仕様やコードについてご意見を募集するするものです。</p>
 
-<p class=MsoNormal>各病名に振られている<span lang=EN-US>ICD11</span>コード、およびそれに関する情報は、不正確であったり、データ形式に仕様案と異なるなどの不備がある可能性があります。また、<span
-lang=EN-US>ICD11</span>は分類コードであり、かならずしも全ての標準病名に対して、ただ一つの<span lang=EN-US>ICD11</span>コードが割り当てることができるとは限らないため、本来の<span
-lang=EN-US>ICD11</span>コードの記述方法とは異なる記述方法をとっていることもあります。</p>
+<p class=MsoNormal>現時点では、各病名に振られている<span lang=EN-US>ICD11</span>コード、およびそれに関する情報は、不正確であったり、データ形式に仕様案と異なるなどの不備がある可能性があります。</p>
+
+<p class=MsoNormal>また、<span lang=EN-US>ICD11</span>は分類コードであり、かならずしも全ての標準病名に対して、ただ一つの<span
+lang=EN-US>ICD11</span>コードを割り当てることができるとは限らないため、本来の<span lang=EN-US>ICD11</span>コードの記述方法とは異なる記述方法をとっていることもあります。</p>
 
 <p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
 
@@ -124,56 +133,79 @@ lang=EN-US>2026</span>年<span lang=EN-US>4</span>月上旬</p>
 
 <p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
 
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><b><u>関連する情報へのリンク</u></b></p>
+
+<p class=MsoNormal>・厚生労働省<span lang=EN-US>HP </span>疾病、傷害及び死因の統計分類（<span
+lang=EN-US>ICD-11</span>準拠）</p>
+
+<p class=MsoNormal>　　　　　<span lang=EN-US>(<a
+href="https://www.mhlw.go.jp/stf/toukei/goriyou/sippei.html">https://www.mhlw.go.jp/stf/toukei/goriyou/sippei.html</a>)</span></p>
+
+<p class=MsoNormal>・（一財）医療情報システム開発センター　<span lang=EN-US>ICD10</span>対応標準病名マスター<span
+lang=EN-US><br>
+</span>　　　　　<span lang=EN-US>(<a
+href="https://www2.medis.or.jp/stdcd/byomei/index.html">https://www2.medis.or.jp/stdcd/byomei/index.html</a>)</span></p>
+
+<p class=MsoNormal align=center style='text-align:center'><b><span lang=EN-US
+style='font-size:12.0pt;font-family:"ＭＳ Ｐゴシック",sans-serif;color:#EE0000'>&nbsp;</span></b></p>
+
+<p class=MsoNormal><b><u>ダウンロード情報</u></b></p>
+
 <p class=MsoNormal align=center style='text-align:center'><b><span
 style='font-size:12.0pt;font-family:"ＭＳ Ｐゴシック",sans-serif;color:#EE0000'>以下から本データをダウンロードし、または利用した場合には、以下に記載の利用条件および免責事項に同意したものとみなします。</span></b></p>
 
-<p class=MsoNormal><span lang=EN-US>       </span>【<span lang=EN-US
+<p class=MsoNormal><span lang=EN-US style='font-size:14.0pt'>       </span><span
+style='font-size:14.0pt'>【</span><span lang=EN-US><a
+href="https://icd11pub.byomei.org/download/icd11StdByomeiMaster-PubCom20260916R1.xlsx"><span
 style='font-size:14.0pt;font-family:"ＭＳ Ｐゴシック",sans-serif'>ICD11</span><span
-style='font-size:14.0pt;font-family:"ＭＳ Ｐゴシック",sans-serif'>対応標準病名マスター準備版ダウンロード</span>】</p>
+lang=EN-US style='font-size:14.0pt;font-family:"ＭＳ Ｐゴシック",sans-serif'><span
+lang=EN-US>対応標準病名マスター準備版ダウンロード</span></span></a></span><span style='font-size:
+14.0pt'>】</span></p>
 
 <table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
  style='border-collapse:collapse;border:none'>
  <tr>
   <td width=604 valign=top style='width:453.05pt;border:solid windowtext 1.0pt;
   padding:0mm 5.4pt 0mm 5.4pt'>
-  <p class=MsoNormal align=left style='text-align:left'><b><span
-  style='font-size:18.0pt;font-family:"ＭＳ Ｐゴシック",sans-serif'>本データの利用条件および免責事項</span></b></p>
-  <p class=MsoNormal align=left style='text-align:left'><span style='font-size:
-  12.0pt;font-family:"ＭＳ Ｐゴシック",sans-serif'>本<span lang=EN-US>Excel</span>データ（以下「本データ」といいます。）は、<span
+  <p class=MsoNormal align=center style='text-align:center'><b><span
+  style='font-size:14.0pt;font-family:"ＭＳ Ｐゴシック",sans-serif'>本データの利用条件および免責事項</span></b></p>
+  <p class=MsoNormal align=left style='text-align:left'><span style='font-family:
+  "ＭＳ Ｐゴシック",sans-serif'>本<span lang=EN-US>Excel</span>データ（以下「本データ」といいます。）は、<span
   lang=EN-US>ICD</span>分類を付与した病名データの試作版であり、その内容および有用性について広く評価・検証していただくことを目的として公開するものです。</span></p>
   <p class=MsoNormal align=left style='text-align:left'><b><span lang=EN-US
-  style='font-size:13.5pt;font-family:"ＭＳ Ｐゴシック",sans-serif'>1</span></b><b><span
-  style='font-size:13.5pt;font-family:"ＭＳ Ｐゴシック",sans-serif'>．第三者への提供について</span></b></p>
-  <p class=MsoNormal align=left style='text-align:left'><span style='font-size:
-  12.0pt;font-family:"ＭＳ Ｐゴシック",sans-serif'>本データをダウンロードした方が、本データそのもの、または本データの全部もしくは一部を複製したものを、所属機関外の第三者に提供、配布、送信その他の方法により利用可能な状態にすることを禁止します。</span></p>
-  <p class=MsoNormal align=left style='text-align:left'><span style='font-size:
-  12.0pt;font-family:"ＭＳ Ｐゴシック",sans-serif'>本データの利用を希望される第三者には、本データを直接提供するのではなく、本データの公開・ダウンロードページの<span
+  style='font-size:11.0pt;font-family:"ＭＳ Ｐゴシック",sans-serif'>1</span></b><b><span
+  style='font-size:11.0pt;font-family:"ＭＳ Ｐゴシック",sans-serif'>．第三者への提供について</span></b></p>
+  <p class=MsoNormal align=left style='text-align:left'><span style='font-family:
+  "ＭＳ Ｐゴシック",sans-serif'>本データをダウンロードした方が、本データそのもの、または本データの全部もしくは一部を複製したものを、所属機関外の第三者に提供、配布、送信その他の方法により利用可能な状態にすることを禁止します。</span></p>
+  <p class=MsoNormal align=left style='text-align:left'><span style='font-family:
+  "ＭＳ Ｐゴシック",sans-serif'>本データの利用を希望される第三者には、本データを直接提供するのではなく、本データの公開・ダウンロードページの<span
   lang=EN-US>URL</span>をご案内いただき、当該ページから各自でダウンロードしていただくようお願いいたします。</span></p>
   <p class=MsoNormal align=left style='text-align:left'><b><span lang=EN-US
-  style='font-size:13.5pt;font-family:"ＭＳ Ｐゴシック",sans-serif'>2</span></b><b><span
-  style='font-size:13.5pt;font-family:"ＭＳ Ｐゴシック",sans-serif'>．利用できる範囲</span></b></p>
-  <p class=MsoNormal align=left style='text-align:left'><span style='font-size:
-  12.0pt;font-family:"ＭＳ Ｐゴシック",sans-serif'>本データをダウンロードした方およびその所属機関内においては、以下の目的で自由に利用することができます。</span></p>
-  <p class=MsoNormal align=left style='text-align:left'><span style='font-size:
-  12.0pt;font-family:"ＭＳ Ｐゴシック",sans-serif'>・本データの内容、精度、有用性等の評価・検証<span
-  lang=EN-US><br>
+  style='font-size:11.0pt;font-family:"ＭＳ Ｐゴシック",sans-serif'>2</span></b><b><span
+  style='font-size:11.0pt;font-family:"ＭＳ Ｐゴシック",sans-serif'>．利用できる範囲</span></b></p>
+  <p class=MsoNormal align=left style='text-align:left'><span style='font-family:
+  "ＭＳ Ｐゴシック",sans-serif'>本データをダウンロードした方およびその所属機関内においては、以下の目的で自由に利用することができます。</span></p>
+  <p class=MsoNormal align=left style='text-align:left'><span style='font-family:
+  "ＭＳ Ｐゴシック",sans-serif'>・本データの内容、精度、有用性等の評価・検証<span lang=EN-US><br>
   </span>・本データを組み込んだシステム、ソフトウェア等の試験的な開発<span lang=EN-US><br>
   </span>・本データを利用するシステムの動作試験、性能評価その他の技術的検証<span lang=EN-US><br>
   </span>・将来の公開システムまたは実運用システムの開発・準備を目的とした、組織内部での本データの搭載、加工および試験</span></p>
-  <p class=MsoNormal align=left style='text-align:left'><span style='font-size:
-  12.0pt;font-family:"ＭＳ Ｐゴシック",sans-serif'>ただし、本データまたは本データを加工したデータを組み込んだシステム、ソフトウェア、データベース等を、一般公開すること、所属機関外の第三者に提供すること、または第三者が利用可能な状態にすることは認められません。</span></p>
+  <p class=MsoNormal align=left style='text-align:left'><span style='font-family:
+  "ＭＳ Ｐゴシック",sans-serif'>ただし、本データまたは本データを加工したデータを組み込んだシステム、ソフトウェア、データベース等を、一般公開すること、所属機関外の第三者に提供すること、または第三者が利用可能な状態にすることは認められません。</span></p>
   <p class=MsoNormal align=left style='text-align:left'><b><span lang=EN-US
-  style='font-size:13.5pt;font-family:"ＭＳ Ｐゴシック",sans-serif'>3</span></b><b><span
-  style='font-size:13.5pt;font-family:"ＭＳ Ｐゴシック",sans-serif'>．試作データであること</span></b></p>
-  <p class=MsoNormal align=left style='text-align:left'><span style='font-size:
-  12.0pt;font-family:"ＭＳ Ｐゴシック",sans-serif'>本データは評価・検証を目的として作成された試作版であり、その内容の正確性、完全性、最新性、特定目的への適合性その他について、いかなる保証も行うものではありません。</span></p>
-  <p class=MsoNormal align=left style='text-align:left'><span style='font-size:
-  12.0pt;font-family:"ＭＳ Ｐゴシック",sans-serif'>本データには、病名と<span lang=EN-US>ICD</span>分類との対応の誤り、分類の不一致、欠落その他の不正確な情報が含まれている可能性があります。本データを診療その他の実運用に利用する場合には、利用者自身の責任において内容を確認してください。</span></p>
+  style='font-size:11.0pt;font-family:"ＭＳ Ｐゴシック",sans-serif'>3</span></b><b><span
+  style='font-size:11.0pt;font-family:"ＭＳ Ｐゴシック",sans-serif'>．試作データであること</span></b></p>
+  <p class=MsoNormal align=left style='text-align:left'><span style='font-family:
+  "ＭＳ Ｐゴシック",sans-serif'>本データは評価・検証を目的として作成された試作版であり、その内容の正確性、完全性、最新性、特定目的への適合性その他について、いかなる保証も行うものではありません。</span></p>
+  <p class=MsoNormal align=left style='text-align:left'><span style='font-family:
+  "ＭＳ Ｐゴシック",sans-serif'>本データには、病名と<span lang=EN-US>ICD</span>分類との対応の誤り、分類の不一致、欠落その他の不正確な情報が含まれている可能性があります。本データを診療その他の実運用に利用する場合には、利用者自身の責任において内容を確認してください。</span></p>
   <p class=MsoNormal align=left style='text-align:left'><b><span lang=EN-US
-  style='font-size:13.5pt;font-family:"ＭＳ Ｐゴシック",sans-serif'>4</span></b><b><span
-  style='font-size:13.5pt;font-family:"ＭＳ Ｐゴシック",sans-serif'>．免責</span></b></p>
-  <p class=MsoNormal align=left style='text-align:left'><span style='font-size:
-  12.0pt;font-family:"ＭＳ Ｐゴシック",sans-serif'>本データの利用、加工、評価、システムへの搭載その他本データに関連する行為により、直接または間接に生じたいかなる損害、不利益、事故、データの消失、システム障害その他の事象についても、本データの作成者および作成に関与した組織またはその構成員は、一切の責任を負いません。</span></p>
+  style='font-size:11.0pt;font-family:"ＭＳ Ｐゴシック",sans-serif'>4</span></b><b><span
+  style='font-size:11.0pt;font-family:"ＭＳ Ｐゴシック",sans-serif'>．免責</span></b></p>
+  <p class=MsoNormal align=left style='text-align:left'><span style='font-family:
+  "ＭＳ Ｐゴシック",sans-serif'>本データの利用、加工、評価、システムへの搭載その他本データに関連する行為により、直接または間接に生じたいかなる損害、不利益、事故、データの消失、システム障害その他の事象についても、本データの作成者および作成に関与した組織またはその構成員は、一切の責任を負いません。</span></p>
   </td>
  </tr>
 </table>
