@@ -19,7 +19,7 @@ img{max-width:100%}
 .terms{margin-top:2.2em;padding:1.4em 1.7em;border-radius:10px;font-size:.95rem}
 .terms h2{margin-top:.2em}.terms h3{font-size:1.02rem;margin:1.4em 0 .4em;font-weight:700}
 ul.terms-list{list-style:none;padding-left:0;margin:.4em 0}ul.terms-list li{margin:.3em 0}
-p.dl-note{margin:.9em 0}
+p.dl-note{margin:.9em 0;color:#c00000}
 @media(max-width:520px){h1{font-size:1.3rem}.wrap{padding:0 16px 48px}}
 
 body{color:#1c2230;background:#f1f4f9}
